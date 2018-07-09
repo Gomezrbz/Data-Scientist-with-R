@@ -11,7 +11,7 @@ In the editor on the right there is already some sample code. Can you see which 
 Add a line of code that calculates the sum of 6 and 12. 
 
 **Answer**: 
-
+```
 #Calculate 3 + 4 
 
 3 + 4 
@@ -19,7 +19,7 @@ Add a line of code that calculates the sum of 6 and 12.
 #Calculate 6 + 12 
 
 6 + 12 
-
+```
 ## Arithmetic with R 
 
 In its most basic form, R can be used as a simple calculator. Consider the following arithmetic operators: 
@@ -44,7 +44,7 @@ The modulo returns the remainder of the division of the number to the left by th
 - Note how the # symbol is used to add comments on the R code. 
 
 **Answer**: 
-
+```
 #An addition 
 
 5 + 5  
@@ -68,7 +68,7 @@ The modulo returns the remainder of the division of the number to the left by th
 #Modulo 
 
 28 %% 6 
-
+```
 ## Variable assignment 
 
 A basic concept in (statistical) programming is called a variable. 
@@ -84,7 +84,7 @@ my_var <- 4
 Over to you: complete the code in the editor such that it assigns the value 42 to the variable x in the editor. Click 'Submit Answer'. Notice that when you ask R to print x, the value 42 appears. 
  
 **Answer**: 
-
+```
 #Assign the value 42 to x 
 
 x <- 42  
@@ -92,7 +92,7 @@ x <- 42
 #Print out the value of the variable x 
 
 X 
-
+```
 ## Basic data types in R 
 
 R works with numerous data types. Some of the most basic types to get started are: 
@@ -111,7 +111,7 @@ Note how the quotation marks on the right indicate that "some text" is a charact
 - my_logical variable to FALSE. 
 
 **Answer**: 
-
+```
 #Change my_numeric to be 42 
 
 my_numeric <- 42 
@@ -123,8 +123,7 @@ my_character <- "universe"
 #Change my_logical to be FALSE 
 
 my_logical <- FALSE 
-
- 
+```
 ## What's that data type? 
 
 Do you remember that when you added 5 + "six", you got an error due to a mismatch in data types? You can avoid such embarrassing situations by checking the data type of a variable beforehand. You can do this with the class() function, as the code on the right shows. 
@@ -136,7 +135,7 @@ Complete the code in the editor and also print out the classes of my_character a
 **Answer**: 
 
 #Declare variables of different types 
-
+```
 my_numeric <- 42 
 
 my_character <- "universe" 
@@ -154,5 +153,4 @@ class(my_character)
 #Check class of my_logical 
 
 class(my_logical) 
-
- 
+```

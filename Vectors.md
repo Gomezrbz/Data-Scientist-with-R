@@ -235,12 +235,12 @@ By making use of comparison operators, we can approach the previous question in 
 
 The (logical) comparison operators known to R are:
 
-- < for less than
-- > for greater than
-- <= for less than or equal to
-- >= for greater than or equal to
-- == for equal to each other
-- != not equal to each other
+- '<' for less than
+- '>' for greater than
+- '<=' for less than or equal to
+- '>=' for greater than or equal to
+- '==' for equal to each other
+- '!=' not equal to each other
 As seen in the previous chapter, stating 6 > 5 returns TRUE. The nice thing about R is that you can use these comparison operators also on vectors. For example:
 ```
 > c(4, 5, 6) > 5

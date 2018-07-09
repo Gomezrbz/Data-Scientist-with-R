@@ -133,9 +133,9 @@ Do you remember that when you added 5 + "six", you got an error due to a mismatc
 Complete the code in the editor and also print out the classes of my_character and my_logical. 
 
 **Answer**: 
-
-#Declare variables of different types 
 ```
+#Declare variables of different types 
+
 my_numeric <- 42 
 
 my_character <- "universe" 

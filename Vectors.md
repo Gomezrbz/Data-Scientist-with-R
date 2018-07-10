@@ -111,8 +111,6 @@ You can also do the calculations with variables that represent vectors:
 
 a <- c(1, 2, 3) b <- c(4, 5, 6)c <- a + b 
 
- 
-
 **Intructions**: 
 - Take the sum of the variables A_vector and B_vector and it assign to total_vector. 
 - Inspect the result by printing out total_vector. 
@@ -162,6 +160,7 @@ poker_wednesday <- poker_vector[3]
 ```
 poker_vector[c(1, 5)]
 ```
+
 **Intructions**: 
 Assign the poker results of Tuesday, Wednesday and Thursday to the variable poker_midweek.
 
@@ -229,7 +228,6 @@ poker_start <- poker_vector[c("Monday","Tuesday","Wednesday")]
 # Calculate the average of the elements in poker_start
 mean(poker_start)
 ```
-
 ## Selection by Comparison
 By making use of comparison operators, we can approach the previous question in a more proactive way.
 
@@ -247,6 +245,7 @@ As seen in the previous chapter, stating 6 > 5 returns TRUE. The nice thing abou
 [1] FALSE FALSE TRUE
 ```
 This command tests for every element of the vector if the condition stated by the comparison operator is TRUE or FALSE
+
 **Intructions**: 
 - Check which elements in poker_vector are positive (i.e. > 0) and assign this to selection_vector.
 - Print out selection_vector so you can inspect it. The printout tells you whether you won (TRUE) or lost (FALSE) any money for each day.
@@ -266,7 +265,6 @@ selection_vector <- poker_vector > 0
 # Print out selection_vector
 selection_vector
 ```
-
 ## Selection Comparison(only true vectors)
 
 Working with comparisons will make your data analytical life easier. Instead of selecting a subset of days to investigate yourself (like before), you can simply ask R to return only those days where you realized a positive return for poker.
@@ -281,6 +279,7 @@ R knows what to do when you pass a logical vector in square brackets: it will on
 
 **Intructions**: 
 Use selection_vector in square brackets to assign the amounts that you won on the profitable days to the variable poker_winning_days.
+
 **Answer**: 
 ```
 # Poker and roulette winnings from Monday to Friday:
@@ -296,13 +295,13 @@ selection_vector <- poker_vector > 0
 # Select from poker_vector these days
 poker_winning_days <- poker_vector[selection_vector]
 ```
-
 ## Advanced selection
 Just like you did for poker, you also want to know those days where you realized a positive return for roulette.
 
 **Intructions**: 
 - Create the variable selection_vector, this time to see if you made profit with roulette for different days.
 - Assign the amounts that you made on the days that you ended positively for roulette to the variable roulette_winning_days. This vector thus contains the positive winnings of roulette_vector.
+
 **Answer**: 
 ```
 # Poker and roulette winnings from Monday to Friday:

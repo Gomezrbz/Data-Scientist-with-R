@@ -11,8 +11,10 @@ In the matrix() function:
 - The first argument is the collection of elements that R will arrange into the rows and columns of the matrix. Here we use 1:9 which is a shortcut for c(1, 2, 3, 4, 5, 6, 7, 8, 9).
 - The argument byrow indicates that the matrix is filled by the rows. If we want the matrix to be filled by the columns, we just place byrow = FALSE.
 - The third argument nrow indicates that the matrix should have three rows.
+
 **Intructions**: 
 Construct a matrix with 3 rows containing the numbers 1 up to 9, filled row-wise.
+
 **Answer**: 
 ```
 # Construct a matrix with 3 rows that contain the numbers 1 up to 9
@@ -63,6 +65,7 @@ rowSums(my_matrix)
 ```
 **Intructions**: 
 Calculate the worldwide box office figures for the three movies and put these in the vector named worldwide_vector.
+
 **Answer**: 
 ```
 # Construct star_wars_matrix
@@ -81,8 +84,10 @@ worldwide_vector
 You can add a column or multiple columns to a matrix with the cbind() function, which merges matrices and/or vectors together by column. For example:
 
 big_matrix <- cbind(matrix1, matrix2, vector1 ...)
+
 **Intructions**: 
 Add worldwide_vector as a new column to the star_wars_matrix and assign the result to all_wars_matrix. Use the cbind() function.
+
 **Answer**: 
 ```
 # Construct star_wars_matrix
@@ -102,8 +107,10 @@ all_wars_matrix
 You can add a row or multiple rows to a matrix with the rbind() function, which merges matrices and/or vectors together by row. For example:
 
 big_matrix <- rbind(matrix1, matrix2, vector1 ...)
+
 **Intructions**: 
 Use rbind() to paste together star_wars_matrix and star_wars_matrix2, in this order. Assign the resulting matrix to all_wars_matrix.
+
 **Answer**: 
 ```
 # star_wars_matrix and star_wars_matrix2 are available in your workspace
@@ -117,9 +124,11 @@ all_wars_matrix
 ```
 ## Column Sum
  Your R workspace already contains the all_wars_matrix that you constructed in the previous exercise; type all_wars_matrix to have another look. Let's now calculate the total box office revenue for the entire saga.
+
 **Intructions**: 
 - Calculate the total revenue for the US and the non-US region and assign total_revenue_vector. You can use the colSums() function.
 - Print out total_revenue_vector to have a look at the results.
+
 **Answer**: 
 ```
 # all_wars_matrix is available in your workspace
@@ -191,10 +200,12 @@ Just like 2 * my_matrix multiplied every element of my_matrix by two, my_matrix1
 After looking at the result of the previous exercise, big boss Lucas points out that the ticket prices went up over time. He asks to redo the analysis based on the prices you can find in ticket_prices_matrix (source: imagination).
 
 Those who are familiar with matrices should note that this is not the standard matrix multiplication for which you should use %*% in R.
+
 **Intructions**: 
 - Divide all_wars_matrix by ticket_prices_matrix to get the estimated number of US and non-US visitors for the six movies. Assign the result to visitors.
 - From the visitors matrix, select the entire first column, representing the number of visitors in the US. Store this selection as us_visitors.
 - Calculate the average number of US visitors; print out the result.
+
 **Answer**: 
 ```
 # all_wars_matrix and ticket_prices_matrix are available in your workspace

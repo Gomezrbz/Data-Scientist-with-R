@@ -221,4 +221,3 @@ us_visitors <- visitors[1,]
 # Average number of US visitors
 mean(us_visitors)
 ```
-

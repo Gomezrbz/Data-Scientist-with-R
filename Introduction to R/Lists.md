@@ -13,6 +13,7 @@ The arguments to the list function are the list components. Remember, these comp
 
 **Instructions**
 Construct a list, named my_list, that contains the variables my_vector, my_matrix and my_df as list components.
+
 **Answers:**
 ```
 # Vector with numerics from 1 up to 10
@@ -40,9 +41,11 @@ This creates a list with components that are named name1, name2, and so on. If y
 my_list <- list(your_comp1, your_comp2)
 names(my_list) <- c("name1", "name2")
 ```
+
 **Instructions**
 - Change the code of the previous exercise (see editor) by adding names to the components. Use for my_vector the name vec, for my_matrix the name mat and for my_df the name df.
 - Print out my_list so you can inspect the output.
+
 **Answers:**
 ```
 # Vector with numerics from 1 up to 10
@@ -79,6 +82,7 @@ Besides selecting components, you often need to select specific elements out of 
 **Instructions**
 - Select from shining_list the vector representing the actors. Simply print out this vector.
 - Select from shining_list the second element in the vector representing the actors. Do a printout like before.
+
 **Answers:**
 ```
 # Print out the vector representing the actors
@@ -97,9 +101,11 @@ This will simply extend the original list, my_list, with the component my_val. T
 ```
 ext_list <- c(my_list, my_name = my_val)
 ```
+
 **Instructions**
 - Complete the code below such that an item named year is added to the shining_list with the value 1980. Assign the result to shining_list_full.
 - Finally, have a look at the structure of shining_list_full with the str() function.
+
 **Answers:**
 ```
 # We forgot something; add the year to shining_list

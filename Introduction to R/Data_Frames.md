@@ -20,6 +20,7 @@ Both head() and tail() print a top line called the 'header', which contains the 
 
 **Instructions**
 Call head() on the mtcars data set to have a look at the header and the first observations.
+
 **Answers:**
 ```
 # Call head() on mtcars
@@ -133,6 +134,7 @@ subset(planets_df, subset = rings)
 ```
 **Instructions**
 Use subset() on planets_df to select planets that have a diameter smaller than Earth. Because the diameter variable is a relative measure of the planet's diameter w.r.t that of planet Earth, your condition is diameter < 1.
+
 **Answers:**
 ```
 # Select planets with diameter < 1
@@ -160,6 +162,7 @@ Now reshuffle planets_df with the positions vector as row indexes inside square 
 - Experiment with the order() function in the console. Click 'Submit Answer' when you are ready to continue.
 - Call order() on planets_df$diameter (the diameter column of planets_df). Store the result as positions.
 - Now reshuffle planets_df with the positions vector as row indexes inside square brackets. Keep all columns. Simply print out the result.
+
 **Answers:**
 ```
 # Elements
